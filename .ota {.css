@@ -1,0 +1,25 @@
+.ota {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.ogli-1 {
+    order: 1;
+    height: 250px;
+    background: grey;
+}
+
+.ogli-2 {
+    order: 1;
+    height: 250px;
+    background: grey;
+}
+
+.ogli-3 {
+    order: 1;
+    height: 250px;
+    background: grey;
+}

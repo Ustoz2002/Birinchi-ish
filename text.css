@@ -1,0 +1,103 @@
+.btn {
+    background: #493c0b;
+    color: black;
+    border: 1px solid #b65050;
+    border-radius: 22px;
+    margin: 40px;
+}
+
+.btn:active {
+    outline: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    animation-name: knopka;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: rgb(28, 53, 4);
+    background: linear-gradient(to left, #493c0b, #545454);
+    outline: none;
+}
+
+@keyframes knopka {
+    from {
+        background: -moz-linear-gradient(red);
+        color: black;
+        border: 1px solid #5f1111;
+        border-radius: 22px;
+        margin-left: 50%;
+    }
+    to {
+        color: #e6adad;
+        padding: 45px;
+        background: radial-gradient(#555555);
+    }
+}
+
+.botn {
+    background: linear-gradient(to right, #ffe998);
+    color: black;
+    border: 1px solid #545454;
+    border-radius: 22px;
+    margin: 40px;
+    outline: none;
+}
+
+.botn:hover {
+    outline: none;
+    cursor: pointer;
+    animation-name: knopka;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: chartreuse;
+    background: linear-gradient(to left, #ffe998, #545454);
+}
+
+@keyframes knopka {
+    from {
+        background: linear-gradient(to right, #a38a2f);
+        color: black;
+        border: 1px solid #e6adad;
+        border-radius: 22px;
+    }
+    to {
+        color: #e6adad;
+        padding: 45px;
+        background: radial-gradient(#555555);
+    }
+}
+
+.bull {
+    background: linear-gradient(to right, #ffe998);
+    color: black;
+    border: 1px solid #545454;
+    border-radius: 22px;
+    margin: 40px;
+}
+
+.bull:hover {
+    cursor: pointer;
+    animation-name: knopka;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: chartreuse;
+    background: linear-gradient(to left, #ffe998, #545454);
+}
+
+@keyframes knopka {
+    from {
+        background: linear-gradient(to right, #a38a2f);
+        color: black;
+        border: 1px solid #e6adad;
+        border-radius: 22px;
+    }
+    to {
+        color: #e6adad;
+        padding: 45px;
+        background: radial-gradient(#555555);
+    }
+}

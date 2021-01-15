@@ -1,0 +1,13 @@
+.text{
+    list-style-type: square;
+    
+    color: #245584;
+}
+.text1{
+    list-style-type: circle;
+    columns: #920404;
+.text2{
+    list-style-type: disc;
+
+    color: #112255;
+}

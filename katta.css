@@ -1,0 +1,6 @@
+.men {
+    display: grid;
+    background-color: blue;
+    height: 100px;
+    padding: 20px;
+}

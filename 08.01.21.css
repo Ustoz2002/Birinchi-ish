@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+.menu {
+    padding-top: 7px;
+    padding-top: 7px;
+    background: blue;
+    background-color: teal;
+}
+
+body {
+    background-color: url("./faizur-rehman-MN6Z9HQjcUw-unsplash.jpg");
+    list-style: url(100%);
+}
+
+.menu>a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px 15px 20px 20px;
+    color: white;
+    text-shadow: teal;
+}
